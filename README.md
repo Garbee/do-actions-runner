@@ -4,11 +4,9 @@ This is a [self hosted](https://docs.github.com/en/free-pro-team@latest/actions/
 
 It will register and remove itself automatically when DigitalOcean App Platform start and stop [the container](https://www.digitalocean.com/docs/app-platform/concepts/container/). You can [vertical scale or horizontal scale](https://www.digitalocean.com/docs/app-platform/how-to/scale-app/) your runner. If you do a horizontal scale (Pro plan only), all runners will be automatically registered to GitHub.
 
-This project is part of [DigitalOcean App Platform Hackathon](https://dev.to/devteam/announcing-the-digitalocean-app-platform-hackathon-on-dev-2i1k). See [submission](https://dev.to/thewdhanat/actions-runner-on-digitalocean-app-platform-30l4) post.
-
 ## Usage
 
-[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/ThewBear/do-actions-runner/tree/main&refcode=61b92fc0f519)
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Garbee/do-actions-runner/tree/main)
 
 Currently, we **cannot** deploy a new app that only has the worker. So you need to create a new app with a service then delete that service and create a worker.
 
@@ -37,12 +35,8 @@ GitHub settings
 
 Horizontal scaling
 
-![Horizontally scaled runners are registered automatically](images/3egdqnfi67zztcjmnhzd.png) 
+![Horizontally scaled runners are registered automatically](images/3egdqnfi67zztcjmnhzd.png)
 
 DigitalOcean dashboard
 
-![DigitalOcean App Platform dashboard](images/unzewo6pk3td9yd9zqnh.png) 
-
-## Additional resources
-
-<a href="https://www.buymeacoffee.com/thew" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee"></a>
+![DigitalOcean App Platform dashboard](images/unzewo6pk3td9yd9zqnh.png)

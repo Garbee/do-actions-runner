@@ -1,19 +1,19 @@
 spec:
   name: do-actions-runner
   services:
-  - dockerfile_path: Dockerfile
-    envs:
-    - key: TOKEN
-      scope: RUN_TIME
-      type: SECRET
-      value: GitHub personal access token
-    - key: OWNER
-      scope: RUN_TIME
-      value: Repository Owner
-    - key: REPO
-      scope: RUN_TIME
-      value: Repository name
-    git:
-      branch: main
-      repo_clone_url: https://github.com/ThewBear/do-actions-runner.git
-    name: do-actions-runner
+    - dockerfile_path: Dockerfile
+      envs:
+        - key: TOKEN
+          scope: RUN_TIME
+          type: SECRET
+          value: GitHub personal access token
+        - key: OWNER
+          scope: RUN_TIME
+          value: Repository Owner
+        - key: REPO
+          scope: RUN_TIME
+          value: Repository name
+      git:
+        branch: main
+        repo_clone_url: https://github.com/Garbee/do-actions-runner.git
+      name: do-actions-runner
